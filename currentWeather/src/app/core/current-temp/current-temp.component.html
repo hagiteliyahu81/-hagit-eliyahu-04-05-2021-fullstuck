@@ -1,0 +1,9 @@
+
+ <div class="name">{{city.Name}}</div>
+ <div>{{temprature.CurrentTemperature}}</div>
+<div>{{temprature.WeatherText}}</div>
+<img  [src]="iconUrl" width="75" height="45" alt="{{temprature.WeatherText}}" title="{{temprature.WeatherText}}"> 
+
+<button *ngIf="!isFavorite" (click)="addToFavorite()">add To Favorite</button>
+<button *ngIf="isFavorite" (click)="removeFromFavorite()">remove From Favorite</button>
+

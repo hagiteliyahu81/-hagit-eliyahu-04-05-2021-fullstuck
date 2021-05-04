@@ -1,0 +1,11 @@
+
+
+<div  class="container">
+    <div class="one">
+        <li *ngFor="let city of cities" (click)="getTemp(city)">{{city.Name}}, {{city.Country}}</li>
+        <div *ngIf="cities==null || cities.length==0">No favorite Cities </div>
+    </div>
+    <div class="two">
+    <app-current-temp *ngIf="selectedCity" [selectedCity]="selectedCity"  ></app-current-temp>
+</div>
+</div>

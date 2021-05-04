@@ -1,0 +1,6 @@
+D:\Weather\Weather\Weather.BO\bin\Debug\Weather.BO.dll
+D:\Weather\Weather\Weather.BO\bin\Debug\Weather.BO.pdb
+D:\Weather\Weather\Weather.BO\obj\Debug\Weather.BO.csproj.CoreCompileInputs.cache
+D:\Weather\Weather\Weather.BO\obj\Debug\Weather.BO.dll
+D:\Weather\Weather\Weather.BO\obj\Debug\Weather.BO.pdb
+D:\Weather\Weather\Weather.BO\obj\Debug\Weather.BO.csprojAssemblyReference.cache

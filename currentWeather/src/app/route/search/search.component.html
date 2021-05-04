@@ -1,0 +1,21 @@
+
+<h1>
+    Enter your current location:
+</h1>
+<div>
+    <input type="text"  #box (keyup.enter)="search(box.value)">
+    <button (click)="search(box.value)">search</button>
+
+    
+</div>
+<div *ngIf="showResults" class="container">
+    <div class="one">
+        <li *ngFor="let city of cities" (click)="getTemp(city)">{{city.Name}}, {{city.Country}}</li>
+        <div *ngIf="cities==null || cities.length==0">No Citeies returned </div>
+    </div>
+    <div class="two">
+    <app-current-temp *ngIf="selectedCity" [selectedCity]="selectedCity"  ></app-current-temp>
+</div>
+</div>
+
+
